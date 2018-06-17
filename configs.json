@@ -1,0 +1,27 @@
+{
+        "port" : 8000,
+        "TOKEN" : "",
+        "APP_SECRET" : "",
+        "APP_USER_ID" : "",
+        "firebaseAddress" : "",
+        "celery": {
+                "PATH_APPEND": "chatbot/",
+                "RABBIT_MQ_URL": "amqp://guest:guest@localhost:5672/%2F",
+                "RABBIT_USR": "guest",
+                "RABBIT_PASS": "guest",
+                "RABBIT_PORT": 5672,
+                "RABBIT_IP": "localhost",
+                "RABBIT_VHOST": "/",
+                "RABBIT_SCKT_TIMEOUT": 2,
+                "CHAT_FROM_FB": "CHAT_FROM_FB",
+                "TEST_TASK": "TEST_TASK",
+                "TEST_RESULT_TASK": "TEST_RESULT_TASK",
+                "CHAT_TO_FB": "CHAT_TO_FB",
+                "SEND_EMAIL": "SEND_EMAIL"
+        },
+        "database": "mongodb://localhost:27017/chat",
+        "email": {
+                "id": "",
+                "pass": ""
+        }
+}

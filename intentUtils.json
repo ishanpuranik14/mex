@@ -1,0 +1,16 @@
+{
+  "min_fuzzy_prob": 60,
+  "min_probability_for_intent": 50,
+  "unknown_intent_node_name": "unknown_intent",
+  "PATH_APPEND": "chatbot/",
+  "class": {
+    "yes": "^yes\\s+.*|.*yes.*|.*yup.*|.*yeah.*|^yea\\s*$|^yea\\s+.*|.*\\s+yea\\s+.*|.*\\s+yea\\s*$|.*definitely.*|.*sure.*|^ok\\s*$|^ok\\s+.*|.*\\s+ok\\s+.*|.*\\s+ok\\s*$|.*fine.*|.*nice.*|.*certainly.*|.*surely.*",
+    "no": "^no\\s+.*|.*no.*|.*nope.*|.*not.*|.*never.*",
+    "maybe": "^not sure\\s+.*|.*maybe.*|.*perhaps.*|.*hmm.*",
+    "ynm": ["maybe", "yes", "no"],
+    "hi": "^\\s*hi([\\.,!?]*)?\\s*$|^\\s*hi([\\.,!?]*)?\\s+.*|^hey.*|^heya.*|^heyo.*|^hello.*",
+    "bye": "^bye.*|^bbye.*|^goodbye.*|.*bye.*",
+    "start_with_no": "^no$|^no\\s+.*|^nope\\s+.*|^nope$|^not\\s+.*|^not$|^never\\s+.*|^never$",
+    "bye_and_ym": ["bye", "yes", "maybe"]
+  }
+}

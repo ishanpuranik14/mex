@@ -1,0 +1,16 @@
+{
+  "placeholders": {
+    "context_object": "context",
+    "message_text": "message",
+    "user_name": "name"
+  },
+  "class": {
+    "yes": "^yes\\s+.*|.*yes.*|.*yup.*|.*yeah.*|.*yea.*|.*definitely.*|.*sure.* |.*ok.*|.*fine.*|.*nice.*|.*certainly.*|.*surely.*",
+    "no": "^no\\s+.*|.*no.*|.*nope.*|.*not.*|.*never.*",
+    "maybe": "^not sure\\s+.*|.*maybe.*|.*perhaps.*|.*hmm.*",
+    "ynm": ["maybe", "yes", "no"],
+    "hi": "^hi.*|^hey.*|^heya.*|^heyo.*|^hello.*",
+    "bye": "^bye.*|^bbye.*|^goodbye.*|.*bye.*"
+  },
+  "delay": 7
+}
